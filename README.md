@@ -1,6 +1,6 @@
 # Product Management
 
-This project is a React web application for managing products, allowing users to add products, list products, and manage their shopping cart. It includes features such as filtering, sorting, and editing quantities in the cart. I initially set up the basic routes to form the base of the project and implemented essential functionalities - to display products and to add products with local storage. I then expanded it to store the products added to the cart in the local storage with additional edit and remove funtionalities in a new a route. Further added the filter and sort option and enhanced css to produce a complete project. 
+This project is a React web application for managing products, allowing users to add products, list products, and manage their shopping cart. It includes features such as filtering, sorting, and editing quantities in the cart. I initially set up the basic routes to form the base of the project and implemented essential functionalities - to display products and to add products with local storage. I then expanded it to store the products added to the cart in the local storage with additional edit and remove funtionalities in a new a route. Further added the filter and sort option and enhanced css to produce a complete project. The homepage displays 'Product Unavailable' when the product list is empty or when product list does not match with the search element, and 'No items in cart' if cart is empty.
 
 ## Table of Contents
 

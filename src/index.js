@@ -2,16 +2,19 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import App from './App';
-import AddProduct from './AddProduct';
-import ListProducts from './ListProducts';
+import AddProduct from './components/AddProduct';
+import { CartProvider } from './components/CartContext';
+import Cart from './components/Cart';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-    <Router>
-      <Routes>
-        <Route path="/" element={<App />} />
-        <Route path="/add" element={<AddProduct />} />
-        <Route path="/list" element={<ListProducts />} />
-      </Routes>
-    </Router>
+    <CartProvider>
+      <Router>
+        <Routes>
+          <Route path="/" element={<App />} />
+          <Route path="/add" element={<AddProduct />} />
+          <Route path="/cart" element={<Cart />} />
+        </Routes>
+      </Router>
+    </CartProvider>
 );

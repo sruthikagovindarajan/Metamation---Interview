@@ -1,0 +1,48 @@
+.product-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  margin-bottom: 20px;
+}
+
+.list-products {
+  display: flex;
+  flex-direction: column;  
+  z-index: 1; 
+}
+
+.list-products::before {
+  content: "";
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: url('https://images.pexels.com/photos/616401/pexels-photo-616401.jpeg?cs=srgb&dl=pexels-goumbik-616401.jpg&fm=jpg') no-repeat center center;
+  background-size: cover;
+  opacity: 0.6;
+  z-index: -1;
+}
+
+.search-bar {
+  flex: -1;
+  margin-left: 490px;
+  width: 100px;
+}
+
+.list-products {
+  padding: 20px;
+}
+
+.filter-sort-controls {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.filter-sort-controls label {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+

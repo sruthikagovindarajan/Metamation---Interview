@@ -1,0 +1,33 @@
+.cart-page {
+    padding: 20px;
+  }
+  
+  .cart-page {
+    display: flex;
+    flex-direction: column;  
+    z-index: 1; 
+  }
+  
+  .cart-page::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: url('https://images.pexels.com/photos/616401/pexels-photo-616401.jpeg?cs=srgb&dl=pexels-goumbik-616401.jpg&fm=jpg') no-repeat center center;
+    background-size: cover;
+    opacity: 0.6; /* Apply transparency */
+    z-index: -1; /* Place behind the content */
+  }
+    
+  
+  .cart-page button {
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  
+  

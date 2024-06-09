@@ -44,7 +44,7 @@ const Cart = () => {
             </nav>
             <div className="cart-page">
                 {Object.keys(cart).length === 0 ? (
-                    <p>No items in cart</p>
+                    <h2>No items in cart</h2>
                 ) : (
                     <table class="table">
                         <thead>

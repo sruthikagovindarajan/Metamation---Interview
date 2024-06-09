@@ -68,7 +68,7 @@ Link - https://metamation-interview.vercel.app/
 ![Screenshots](https://github.com/sruthikagovindarajan/Metamation---Interview/blob/main/screenshots/Add.png)
 ![Screenshots](https://github.com/sruthikagovindarajan/Metamation---Interview/blob/main/screenshots/AddSuccess.png)
 ![Screenshots](https://github.com/sruthikagovindarajan/Metamation---Interview/blob/main/screenshots/Home.png)
-![Screenshots]https://github.com/sruthikagovindarajan/Metamation---Interview/blob/main/screenshots/addtocart.png
-![Screenshots]https://github.com/sruthikagovindarajan/Metamation---Interview/blob/main/screenshots/deletion.png
-![Screenshots]https://github.com/sruthikagovindarajan/Metamation---Interview/blob/main/screenshots/filter.png
-![Screenshots]https://github.com/sruthikagovindarajan/Metamation---Interview/blob/main/screenshots/sort.png
+![Screenshots](https://github.com/sruthikagovindarajan/Metamation---Interview/blob/main/screenshots/addtocart.png)
+![Screenshots](https://github.com/sruthikagovindarajan/Metamation---Interview/blob/main/screenshots/deletion.png)
+![Screenshots](https://github.com/sruthikagovindarajan/Metamation---Interview/blob/main/screenshots/filter.png)
+![Screenshots](https://github.com/sruthikagovindarajan/Metamation---Interview/blob/main/screenshots/sort.png)
